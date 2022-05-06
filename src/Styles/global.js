@@ -18,6 +18,8 @@ export const GlobalStyle = createGlobalStyle`
   }
   body{
     font-family: 'Inter', sans-serif;
+    background-color: var(--quaternary);
+    
   }
 
   body, input, button {
