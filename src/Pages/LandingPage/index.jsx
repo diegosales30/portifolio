@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import logo from "../../assets/logoLand01.png";
+import logo from "../../assets/logoInicial.png";
 import { ContainerLand } from "./style";
 
 const LandingPage = () => {

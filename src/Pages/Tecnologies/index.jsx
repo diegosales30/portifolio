@@ -1,10 +1,17 @@
 import Header from "../../Components/Header";
+import MyNewTec from "../../Components/MyNewTec";
+import MyTecs from "../../Components/MyTecs";
+import { TecContainer } from "./style";
 
 const Tecnologies = () => {
   return (
-    <div>
+    <TecContainer>
       <Header />
-    </div>
+      <main>
+        <MyTecs />
+        <MyNewTec />
+      </main>
+    </TecContainer>
   );
 };
 export default Tecnologies;
