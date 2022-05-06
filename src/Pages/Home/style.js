@@ -5,13 +5,12 @@ export const ContainerHome = styled.div`
   max-width: 1250px;
   border-radius: 10px;
 
-  height: 100vh;
+  height: 100%;
   min-width: 320px;
   margin: auto;
 `;
 
 export const ContainerMain = styled.main`
-  background-color: var(--tertiary);
   width: 100%;
   max-width: 1250px;
   border-radius: 10px;
@@ -77,6 +76,14 @@ export const ContainerMain = styled.main`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
+    .swing:hover {
+      -webkit-animation: swing 1s ease;
+      animation: swing 1s ease;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+    }
+
     img {
       width: 400px;
       &:hover {

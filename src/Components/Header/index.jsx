@@ -1,17 +1,27 @@
 import logo from "../../assets/logoLand01.png";
-import { HeaderPage } from "./style";
+import { Hamburguer, HeaderPage } from "./style";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigation = useNavigate();
+  const handleNavigation = (path) => {
+    return navigation(path);
+  };
+
   return (
     <HeaderPage>
-      <img src={logo} alt="logo" />
-      <div>
+      <img onClick={() => handleNavigation("/home")} src={logo} alt="logo" />
+      <div className="menu-list">
         <ul>
-          <li>Quem sou</li>
-          <li>Projetos</li>
-          <li>Tecnologias</li>
-          <li>Contato</li>
+          <li onClick={() => handleNavigation("/about")}>Quem sou</li>
+          <li onClick={() => handleNavigation("/projects")}>Projetos</li>
+          <li onClick={() => handleNavigation("/tecnologies")}>Tecnologias</li>
+          <li onClick={() => handleNavigation("/contact")}>Contato</li>
         </ul>
+        <Hamburguer>
+          <GiHamburgerMenu size={30} color="#fff" />
+        </Hamburguer>
       </div>
     </HeaderPage>
   );

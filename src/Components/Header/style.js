@@ -20,9 +20,7 @@ export const HeaderPage = styled.header`
     cursor: pointer;
     &:hover {
       border-radius: 100%;
-      background-color: var(--quinary);
-      border: 1px solid var(--senary);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin-top: 5px;
     }
   }
 
@@ -49,5 +47,23 @@ export const HeaderPage = styled.header`
         }
       }
     }
+    @media (max-width: 768px) {
+      ul {
+        display: none;
+      }
+    }
+  }
+`;
+export const Hamburguer = styled.div`
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  top: 35px;
+  &:hover {
+    color: black;
+    margin-top: 1px;
+  }
+  @media (max-width: 768px) {
+    display: flex;
   }
 `;
