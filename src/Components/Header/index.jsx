@@ -4,8 +4,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-import { DiGithubBadge, DiOpensource, DiHtml5 } from "react-icons/di";
+import { DiGithubBadge, DiHtml5 } from "react-icons/di";
 import { FiUser, FiPhone } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -45,7 +46,7 @@ const Header = () => {
               <FiUser />
             </li>
             <li onClick={() => handleNavigation("/projects")}>
-              <DiGithubBadge />
+              <FaGithub />
             </li>
             <li onClick={() => handleNavigation("/tecnologies")}>
               <DiHtml5 />

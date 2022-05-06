@@ -1,7 +1,7 @@
 import Header from "../../Components/Header";
 import { ContainerHome, ContainerMain } from "./style";
 import logo from "../../assets/reactLogo01.png";
-import stackLogo from "../../assets/stacks.png";
+import stackLogo from "../../assets/logo-home.png";
 
 const Home = () => {
   return (

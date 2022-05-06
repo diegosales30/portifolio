@@ -8,20 +8,44 @@ export const ContainerContact = styled.div`
   height: 100vh;
   min-width: 320px;
   margin: auto;
+
   main {
+    margin-top: 55px !important;
     margin: auto;
     width: 80%;
-    border: 1px solid red;
+
     display: flex;
     justify-content: space-around;
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      section {
+        margin-top: 30px;
+        margin: auto;
+      }
+    }
   }
   figure {
-    border: 1px solid black;
+    margin: auto;
   }
-  section {
+  section.contatos {
     width: 400px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid white;
+
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+      color: var(--senary);
+      font-size: 25px;
+      padding: 10px;
+      a {
+        color: var(--senary);
+        font-size: small;
+        margin-left: 15px;
+      }
+    }
   }
 `;

@@ -33,7 +33,8 @@ export const Container = styled.div`
       h3 {
         text-align: center;
         color: white;
-        margin-top: 18px;
+        letter-spacing: 3px;
+        margin-top: 17px;
       }
     }
 
