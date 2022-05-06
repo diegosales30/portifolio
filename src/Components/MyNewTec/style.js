@@ -6,6 +6,7 @@ export const MyNewTecContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-top: 2px solid white;
+
   h1 {
     color: white;
   }

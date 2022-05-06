@@ -57,6 +57,7 @@ export const HeaderPage = styled.header`
 export const Hamburguer = styled.div`
   display: none;
   position: absolute;
+
   cursor: pointer;
   top: 35px;
   &:hover {
@@ -64,6 +65,38 @@ export const Hamburguer = styled.div`
     margin-top: 1px;
   }
   @media (max-width: 768px) {
+    display: block;
+  }
+`;
+
+export const SectionBtn = styled.section`
+  display: flex;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+  ul {
     display: flex;
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    li {
+      margin-top: 10px;
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--senary);
+      font-size: 27px;
+      width: 30px;
+      &:hover {
+        border-bottom: 2px solid var(--senary);
+        cursor: pointer;
+      }
+    }
   }
 `;

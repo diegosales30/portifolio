@@ -6,6 +6,7 @@ export const TecContainer = styled.div`
   border-radius: 10px;
   height: 100%;
   margin: auto;
+
   main {
     display: flex;
     flex-direction: column;
