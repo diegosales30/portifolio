@@ -10,9 +10,9 @@ const Home = () => {
       <ContainerMain>
         <div>
           <aside>
-            <h2>Olá, seja muito bem vindo!</h2>
+            <h2>Olá, seja muito bem-vindo!</h2>
             <h2>Eu sou Diego Sales</h2>
-            <h2>Front-end developer</h2>
+            <h2>Front-end developer Jr</h2>
           </aside>
           <img className="spinner is-animating" src={logo} alt="reactLogo" />
         </div>

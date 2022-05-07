@@ -3,6 +3,7 @@ import AboutMe from "../Pages/AboutMe";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
 import LandingPage from "../Pages/LandingPage";
+import Projects from "../Pages/Projects";
 import Tecnologies from "../Pages/Tecnologies";
 
 const Routers = () => {
@@ -13,6 +14,7 @@ const Routers = () => {
       <Route path="/about" element={<AboutMe />} />
       <Route path="/tecnologies" element={<Tecnologies />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   );
 };

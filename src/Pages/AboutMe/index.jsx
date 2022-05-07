@@ -16,9 +16,9 @@ const AboutMe = () => {
             Meu nome é Diego, sou manauara, amante da natureza. atualmente estou
             focado na área de desenvolvimento web, aprimorando meus
             conhecimentos e aprendendo novas tecnologias. meu foco está no
-            ReactJs, mas pretendo aprender backend com nodeJS e React Native.
-            aceito qualquer desafio, e estou sempre disposto a aprender novas
-            tecnologias.
+            Front-end com ReactJs, mas pretendo aprender Back-end com nodeJS e
+            React Native. aceito qualquer desafio, e estou sempre disposto a
+            aprender novas tecnologias.
           </h3>
         </div>
       </main>
