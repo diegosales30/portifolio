@@ -61,9 +61,6 @@ export const ContainerMain = styled.main`
     img {
       width: 250px;
       animation: spin 10s linear infinite;
-      &:hover {
-        animation: spin 2s alternate-reverse infinite;
-      }
     }
     @keyframes spin {
       100% {

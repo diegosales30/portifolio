@@ -19,11 +19,14 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-family: 'Inter', sans-serif;
     background-color: var(--quaternary);
+    cursor: url(cursor.png), auto;
+    
     
   }
 
   body, input, button {
     font-family: 'Inter', sans-serif;
+    
     
   }
 
