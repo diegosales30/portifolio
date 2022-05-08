@@ -11,7 +11,7 @@ export const Mytec = styled.div`
     display: flex;
     flex-direction: column;
     h1 {
-      font-size: 25px;
+      font-size: 22px;
     }
   }
 `;
@@ -23,12 +23,14 @@ export const BoxContent = styled.div`
   width: 700px;
   margin: auto;
   text-align: center;
-
+  h4 {
+    color: white;
+  }
   div {
     margin: 15px;
     img {
-      width: 174px;
-      height: 174px;
+      width: 150px;
+      height: 150px;
       &:hover {
         border: 2px solid white;
         box-shadow: 0 0 10px black;
@@ -39,10 +41,6 @@ export const BoxContent = styled.div`
     display: flex;
     flex-direction: column;
     div {
-      img {
-        width: 200px !important;
-        height: 200px !important;
-      }
     }
   }
 `;

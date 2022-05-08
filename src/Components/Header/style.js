@@ -38,6 +38,7 @@ export const HeaderPage = styled.header`
         padding: 10px;
         list-style: none;
         color: var(--senary);
+        color: white;
         font-size: 1rem;
         font-weight: 500;
         cursor: pointer;
@@ -76,6 +77,7 @@ export const SectionBtn = styled.section`
     display: none;
   }
   ul {
+    background-color: #dcdcdc;
     display: flex;
     width: 100%;
     height: 50px;
@@ -85,17 +87,18 @@ export const SectionBtn = styled.section`
     margin-right: 15px;
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 
     li {
       margin-top: 10px;
       font-size: 17px;
       font-weight: 500;
-      color: var(--senary);
+      color: var(--quinary);
       font-size: 27px;
       width: 30px;
       &:hover {
-        border-bottom: 2px solid var(--senary);
         cursor: pointer;
+        margin-top: 7px;
       }
     }
   }

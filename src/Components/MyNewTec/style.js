@@ -6,8 +6,12 @@ export const MyNewTecContainer = styled.div`
   justify-content: center;
   align-items: center;
   border-top: 2px solid white;
+  text-align: center;
 
   h1 {
+    color: white;
+  }
+  h4 {
     color: white;
   }
   @media (max-width: 700px) {
@@ -24,11 +28,12 @@ export const MyNewTecContainer = styled.div`
     width: 700px;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 100%;
     div {
       margin-left: 35px;
       img {
-        width: 100%;
+        width: 150px;
+        height: 150px;
         &:hover {
           border: 2px solid white;
           box-shadow: 0 0 10px black;
@@ -36,12 +41,13 @@ export const MyNewTecContainer = styled.div`
       }
     }
     @media (max-width: 700px) {
-      margin-top: 50px;
+      margin-top: 30px;
       display: flex;
       flex-direction: column;
       div {
-        margin-top: 35px;
+        margin-top: 20px;
         img {
+          margin-bottom: 15px;
         }
       }
     }

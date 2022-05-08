@@ -37,6 +37,7 @@ export const ContentBox = styled.div`
     figure {
       margin: 15px;
       width: 260px;
+      height: 320px;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
@@ -45,7 +46,7 @@ export const ContentBox = styled.div`
       background-color: var(--primary);
       cursor: pointer;
       &:hover {
-        box-shadow: 0 0 10px #ffff;
+        background-color: black;
       }
       img {
         border-radius: 10px;
@@ -61,6 +62,7 @@ export const ContentBox = styled.div`
         margin-top: 10px;
         text-align: center;
         color: #ffff;
+        font-size: 12px;
       }
     }
   }

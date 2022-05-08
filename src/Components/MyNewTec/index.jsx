@@ -11,9 +11,11 @@ const MyNewTec = () => {
       <section>
         <div>
           <img src={typescript} alt="TYPESCRIPT" />
+          <h4>TYPESCRIPT</h4>
         </div>
         <div>
           <img src={node} alt="NODEJS" />
+          <h4>NODEJS</h4>
         </div>
       </section>
     </MyNewTecContainer>

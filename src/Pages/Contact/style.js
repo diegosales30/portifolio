@@ -50,7 +50,7 @@ export const ContainerContact = styled.div`
   }
   @media (max-width: 768px) {
     section.contatos {
-      width: 320px;
+      width: 260px;
     }
   }
 `;

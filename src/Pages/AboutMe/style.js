@@ -15,7 +15,7 @@ export const Container = styled.div`
     align-items: center;
 
     div {
-      margin-top: 100px;
+      margin-top: 50px;
 
       padding: 0;
 
@@ -28,7 +28,7 @@ export const Container = styled.div`
     div {
       height: 70vh;
       width: 450px;
-      margin-left: 50px;
+
       h1,
       h3 {
         text-align: center;
