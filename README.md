@@ -4,6 +4,9 @@
 
 > Status do Projeto: Em Andamento 🕐:
 
+### Deploy on Vercel  teste aqui:
+- portifolio url(https://portifolio-self.vercel.app/)
+
 #### Conhecimentos Adquiridos/Utilizados:
 
 - Componentização dos itens do site para melhor controle do código;
