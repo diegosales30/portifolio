@@ -7,6 +7,7 @@ import react from "../../assets/stacks/react.png";
 import git from "../../assets/stacks/git.png";
 import styledLogo from "../../assets/stacks/styled-componets.png";
 import mui from "../../assets/stacks/mui.png";
+import redux from "../../assets/stacks/redux.png";
 
 const MyTecs = () => {
   return (
@@ -42,6 +43,14 @@ const MyTecs = () => {
         <div>
           <img src={mui} alt="mui" />
           <h4>MATERIAL UI</h4>
+        </div>
+        <div>
+          <img src={redux} alt="redux" />
+          <h4>REDUX</h4>
+        </div>
+        <div>
+          <img src={react} alt="REACT" />
+          <h4>CONTEXT API</h4>
         </div>
       </BoxContent>
     </Mytec>
