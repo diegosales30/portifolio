@@ -5,8 +5,8 @@ import css from "../../assets/stacks/css.png";
 import js from "../../assets/stacks/js.png";
 import react from "../../assets/stacks/react.png";
 import git from "../../assets/stacks/git.png";
-import styledLogo from "../../assets/stacks/styled-componets.png";
-import mui from "../../assets/stacks/mui.png";
+import styledLogo from "../../assets/stacks/styled.png";
+import chakra from "../../assets/stacks/chakra.png";
 import redux from "../../assets/stacks/redux.png";
 
 const MyTecs = () => {
@@ -41,8 +41,8 @@ const MyTecs = () => {
           <h4>STYLED-COMPONENTS</h4>
         </div>
         <div>
-          <img src={mui} alt="mui" />
-          <h4>MATERIAL UI</h4>
+          <img src={chakra} alt="chakra" />
+          <h4>CHAKRA UI</h4>
         </div>
         <div>
           <img src={redux} alt="redux" />

@@ -1,6 +1,7 @@
 import { MyNewTecContainer } from "./style";
 import typescript from "../../assets/stacks/typescript.png";
 import node from "../../assets/stacks/node.png";
+import mui from "../../assets/stacks/mui.png";
 
 const MyNewTec = () => {
   return (
@@ -16,6 +17,10 @@ const MyNewTec = () => {
         <div>
           <img src={node} alt="NODEJS" />
           <h4>NODEJS</h4>
+        </div>
+        <div>
+          <img src={mui} alt="mui" />
+          <h4>MATERIAL UI</h4>
         </div>
       </section>
     </MyNewTecContainer>
