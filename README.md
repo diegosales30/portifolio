@@ -38,6 +38,7 @@ Execute a aplicação:
 
 ```
 yarn start
+para inciar 
 ```
 
 ## Linguagens e libs :books:
