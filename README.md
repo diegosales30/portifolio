@@ -2,7 +2,7 @@
 
 ### Telas
 
-//> Status do Projeto: Em Andamento 🕐:
+//> Status do Projeto: finalizado 🕐:
 
 ### Deploy on Vercel  teste aqui:
 - portifolio url(https://portifolio-self.vercel.app/)
